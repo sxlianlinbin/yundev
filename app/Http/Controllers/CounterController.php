@@ -25,7 +25,6 @@ class CounterController extends Controller
      */
     public function getCount()
     {
-        
         try {
             $data = (new Counters)->find(1);
             if ($data == null) {
