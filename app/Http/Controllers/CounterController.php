@@ -25,7 +25,7 @@ class CounterController extends Controller
      */
     public function getCount()
     {
-        echo 'hello word!';
+        
         try {
             $data = (new Counters)->find(1);
             if ($data == null) {
